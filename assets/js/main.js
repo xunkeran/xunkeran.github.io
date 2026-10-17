@@ -109,7 +109,7 @@
         PROJECT_TAG_LIBRARY.OPEN_SOURCE,
       ],
       links: [
-        { href: 'https://github.com/Lain-Ego0/LocoWiki', labelKey: 'projects.links.code', icon: 'fab fa-github' },
+        { href: 'https://github.com/LocoWiki/LocoWiki', labelKey: 'projects.links.code', icon: 'fab fa-github' },
         { href: 'https://locowiki.github.io/', labelKey: 'projects.links.website', icon: 'fas fa-globe' },
         { href: 'https://lain-database.feishu.cn/wiki/HwyJwB70niKbW7khmwlcbCH2nXb', labelKey: 'projects.links.feishu', icon: 'fas fa-book' },
       ],
