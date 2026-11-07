@@ -1,16 +1,13 @@
 {
   "nav": {
-    "home": "Home",
     "projects": "Projects",
     "timeline": "Timeline",
-    "skills": "Tech Stack",
-    "contact": "Contact",
-    "documents": "Articles"
+    "skills": "Tech Stack"
   },
   "intro": {
-    "avatarAlt": "Lain-Ego's avatar",
-    "title": "Hello, I'm Lain",
-    "desc": "Robotics developer.<br>Currently interning at a humanoid robotics company.<br>Focused on MCU and Linux application development, motion control, RL deployment, and robot perception."
+    "avatarAlt": "Xun Keran's avatar",
+    "title": "Hello, I'm Xun Keran",
+    "desc": "Robotics competition builder, working on whole-robot structure and embedded control.<br>R&D and on-field debugging for RoboMaster and the China Engineering Robot Competition.<br>Interested in omnidirectional chassis, mechanism design, and motion control."
   },
   "projects": {
     "title": "Projects",
@@ -28,79 +25,24 @@
       "followup": "Follow-up video"
     },
     "item0": {
-      "title": "Qianxing Intelligence Humanoid Robots",
-      "desc": "Core motion-control contributor for multiple humanoid platforms, responsible for motion-data processing and hardware debugging. Built a frame-by-frame IK retargeting method for low-latency BVH-to-robot whole-body teleoperation, trained low-level motion and high-level decision policies in mjlab as a hierarchical dual-network controller, and created a URDF-driven self-occlusion mask pipeline to reduce robot-body interference in vision detection.",
-      "tags": ["Humanoid Robotics", "Motion Control", "Reinforcement Learning", "Motion Capture", "Robot Perception"]
+      "title": "RoboMaster 2025 Competition Robot (No. 1)",
+      "desc": "Robot No. 1 built for RoboMaster 2025. A four-wheel omnidirectional chassis with independent per-wheel drive carries a heavy large-angle pitch mechanism on top, wrapped in mesh armor and LED armor plates. Frame, support arms, and every 3D-printed part were designed in-house, and the harness is layered by module and bundled inside the frame so armor and ballast can be swapped for each rule revision. Photographed at the 2025 National Finals.",
+      "tags": ["RoboMaster", "Robotics", "Mechanical Design", "Robot Control", "Competition"]
     },
     "item1": {
-      "title": "LocoWiki Robot Locomotion Resource Hub",
-      "desc": "A one-stop robot-locomotion community for ROBOCON preparation, research, and engineering reference. It curates competition rules, university technical talks, paper reading lists, and mainstream open-source projects, and has grown to 120,000+ views and 1,100+ members.",
-      "tags": ["Wiki", "Knowledge Base", "Robotics", "Open Source"]
+      "title": "RoboMaster Infantry Robots (No. 3 / 4)",
+      "desc": "Two robots from a dual-infantry build: a four-wheel mecanum chassis, a gimbal that rotates a full turn, and a 17 mm launcher with magazine and laser aiming aid, with guard tubes and quick-release plates on both sides of the barrel; orange 3D-printed parts act as magazine rails and cable anchors. The pair ran the field under armor plates 3 and 4, and the white balls on the floor are spent 17 mm projectiles.",
+      "tags": ["RoboMaster", "Robotics", "Motion Control", "Mechanical Design", "Competition"]
     },
     "item2": {
-      "title": "HighTorque Mini Open-Source Quadruped",
-      "desc": "Led a mini open-source quadruped project during my internship at HighTorque, establishing the development workflow and moving modules from prototype validation toward productization. Trained locomotion policies with HIMLoco, handled sim-to-real deployment and gap adaptation, reproduced DreamWaQ, walk-these-ways, and staged-reward strategies, and wrote debugging and user guides.",
-      "tags": ["Robotics", "Reinforcement Learning", "Sim-to-Real", "Deployment"]
+      "title": "Multi-Servo Arm Control System",
+      "desc": "The servo control system designed in-house for our 2025 China Engineering Robot Competition entry. An STM32 board sits at the center, fanning multiple PWM channels out to joint-numbered servo headers, backed by 20 kg-class digital servos, direct LiPo power, and a buck module. Harnesses are numbered and bundled in sections, and power runs through an XT60 connector with a pull-guard label, so any joint can be found fast during assembly and post-match repair.",
+      "tags": ["Embedded Systems", "STM32F407", "Digital Servo", "Power Electronics", "Competition"]
     },
     "item3": {
-      "title": "ROBOCON Parallel Force-Control Robot",
-      "desc": "Led modeling and motion-control development for an 8-DOF parallel quadruped, designed foot trajectories, and validated VMC in Webots. Deployed FAST-LIO mapping and AMCL + move_base navigation for autonomous movement in structured environments. Led the team to three National Second Prizes in the 2025 ROBOCON bionic-legged Speed, Obstacle, and Cross-Country events; the project also received provincial innovation-program funding.",
-      "tags": ["Robotics", "Motion Control", "SLAM", "LiDAR", "Mechanical Design"]
-    },
-    "item4": {
-      "title": "Bionic Lobster Submersible",
-      "desc": "Developed the control and embedded systems for a buoyancy-adjustable multi-DOF lobster-inspired underwater robot, unifying stepper peristaltic pump, motor, and servo actuation with IMU acquisition. Built a vectored-thrust model for its irregular multi-thruster layout to achieve omnidirectional control. Won the 2024 Fujian provincial Grand Prize and was covered by Xinhua News Agency and Guangming Daily.",
-      "tags": ["Underwater Robotics", "Embedded Systems", "Vectored Propulsion", "Waterproof Engineering"]
-    },
-    "item5": {
-      "title": "Intelligent Rice Transplanting and Harvesting Robot",
-      "desc": "FreeRTOS-based agricultural robot for rice transplanting and harvesting. Controlled DJI 3508 motors for gripper lifting and an omnidirectional chassis, achieving ±5 mm positioning accuracy. Participated in pneumatic design and hardware wiring, supporting dual-robot collaboration.",
-      "tags": ["Agricultural Robotics", "FreeRTOS", "Motor Control", "Multi-Robot Collaboration"]
-    },
-    "item6": {
-      "title": "SliverWolf Desktop Quadruped and Arm",
-      "desc": "An open-source desktop 12-DOF serial-link quadruped with an optional robotic arm and gripper. Built around STM32F103 and MG92R micro servos, the repository includes body and arm STL files, PCB PDFs, quadruped firmware, voice relay firmware, posture/button-control examples, and an LD3320 voice-recognition project. Serial commands cover standing, forward/backward walking, turning, strafing, crawling, handshaking, light effects, and one-click object fetching through Bluetooth, IMU/button, and voice-control paths.",
-      "tags": ["STM32F103", "Voice Control", "IMU", "LD3320", "Robotic Arm"]
-    },
-    "item7": {
-      "title": "3508 Legged-Robot Drive Test Platform",
-      "desc": "A DJI M3508-powered quadruped drive validation platform iterated by the MTI Robotics Team at Fujian University of Technology since 2022. Starting from an F427 ROBOCON chassis architecture, it evolved into a quadruped control program with RC/keyboard operation, variable PID motor parameters, stable standing, gyroscope attitude balance, LiDAR height holding, gait timing, frame compensation, backward gait, turning, and track testing for multiple ROBOCON legged-robot seasons.",
-      "tags": ["M3508", "Motor Control", "PID", "Sensor Fusion", "Legged Robot"]
-    },
-    "item8": {
-      "title": "ROBOCON2024-PPS",
-      "desc": "MTIPPS is a planar base-axis positioning system for ROBOCON 2024 robots. Based on STM32F103C8T6, RS485 absolute encoders, and omni-wheel code disks, it reads XY displacement with millimeter-level travel recording while collecting Hi219 gyroscope attitude data. The system streams positioning and attitude information to the robot mainboard for chassis localization, path-planning, and autonomous driving tests.",
-      "tags": ["STM32F103", "Positioning", "RS485", "Absolute Encoder", "IMU"]
-    },
-    "item9": {
-      "title": "ArenaX Robotics Terrain & Policy Validation Environment",
-      "desc": "A MuJoCo procedural terrain and scene tool for robot-policy validation. Its bilingual PyQt editor generates flat, sloped, stair, noise, and mixed-obstacle terrains and exports MuJoCo XML, heightmaps, and JSON metadata. The embedded MuJoCo simulation page supports interactive testing of M20 and Go2 robots with ONNX locomotion policies, plus external terrain-library loading.",
-      "tags": ["Python", "MuJoCo", "PyQt", "ONNX", "Terrain Generation"]
-    },
-    "item10": {
-      "title": "S-Dog Quadruped Robot",
-      "desc": "Developing a 12-DOF quadruped and contributing to lightweight mechanical design and system integration. The 10.25 kg robot carries up to 5 kg. Reworked proprioceptive observations, action space, and rewards with reference to RoboGauge, and added AMP to learn motion priors from mocap data. Deployed obstacle-crossing, platform-climbing, and self-recovery policies on hardware: 20 cm obstacles and 40 cm platforms. Exhibited at WAIC 2026.",
-      "tags": ["Legged Robot", "Reinforcement Learning", "AMP", "Sim-to-Real", "Mechanical Design"]
-    },
-    "item11": {
-      "title": "G-Exo Consumer 4-DOF Active Lower-Limb Exoskeleton",
-      "desc": "Led development of a consumer-grade four-DOF active lower-limb exoskeleton, owning mechanical and electronics design, URDF modeling, and system architecture. Co-developed a MyoSuite + MuJoCo + PPO training pipeline using a TCN to encode IMU and joint time-series features and output assistive torque. Won the alloop track at the inaugural Physical AI Hackathon and HKD 30,000.",
-      "tags": ["Exoskeleton", "PPO", "MyoSuite", "TCN", "URDF"]
-    }
-  },
-  "documents": {
-    "title": "Articles",
-    "item0": {
-      "title": "Robotics Engineer Learning Roadmap (Preview) - Lain-Ego on Zhihu",
-      "desc": "A structured learning path for robotics engineers, covering core areas such as motion control, perception, embedded systems, and SLAM, with phased study suggestions and resource indexing."
-    },
-    "item1": {
-      "title": "A Guide to Career Paths in the Robotics Industry — for High School Students - KKR Database on Zhihu",
-      "desc": "An overview of development paths and subfields in the robotics industry for high school students, helping connect university major choices with career directions through a clear industry landscape."
-    },
-    "item2": {
-      "title": "On the Organizational Maturity of University Robotics Competition Teams - KKR Database on Zhihu",
-      "desc": "Exploring how university robotics competition teams can improve organizational efficiency, knowledge transfer, and collaboration — from team structure and document management to sustainable season planning."
+      "title": "Omnidirectional Suspended-Chassis Combat Robot",
+      "desc": "A combat platform built around mobility: four mecanum wheels handle drive, small idler wheels at the corners prevent tip-over, and the upper assembly floats on springs and linear rails so it self-levels over obstacles and uneven patches. The top module pitches independently, harnesses leave the frame in braided sleeves, and the head keeps mounting points for a camera and video transmitter. Armor and lighting are cut to regulation sizes, with structure and electronics modularized on a single frame.",
+      "tags": ["RoboMaster", "Chassis Design", "Suspension Design", "Mechanical Design", "Robotics"]
     }
   },
   "timeline": {
@@ -180,15 +122,12 @@
     "hardware": "Mechanical & Hardware Design"
   },
   "contact": {
-    "title": "Let's Connect",
-    "bilibili": "Bilibili",
     "github": "GitHub",
-    "twitter": "Twitter",
     "zhihu": "Zhihu",
     "playground": "Online Policy Demo",
     "email": "Email"
   },
   "footer": {
-    "copyright": "© 2023-2026 Lain-Ego | Personal Homepage"
+    "copyright": "© 2023-2026 Xun Keran | Personal Homepage"
   }
 }

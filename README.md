@@ -9,13 +9,7 @@ No backend and no build step are required. Download it, replace the copy and ima
 
 ## Preview
 
-### Homepage
-
-![Homepage template preview](assets/images/screenshot-home.png)
-
-### Playground
-
-![Playground policy demo preview](assets/images/screenshot-playground.png)
+Start a local static server (see [Quick Start](#quick-start)) and open the homepage; the top-right corner switches theme and language.
 
 ## Table of Contents
 

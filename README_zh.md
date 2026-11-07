@@ -9,13 +9,7 @@
 
 ## 预览
 
-### 个人主页
-
-![个人主页模板截图](assets/images/screenshot-home.png)
-
-### Playground
-
-![Playground 策略试玩页截图](assets/images/screenshot-playground.png)
+在本地起一个静态服务器（见 [快速开始](#快速开始)）打开首页即可查看，右上角可切换明暗主题与中英文。
 
 ## 目录
 

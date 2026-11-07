@@ -50,217 +50,70 @@
     ONNX: 'ONNX',
     MUJOCO: 'MuJoCo',
     TERRAIN_GENERATION: 'Terrain Generation',
+    ROBOMASTER: 'RoboMaster',
+    STM32F407: 'STM32F407',
+    DIGITAL_SERVO: 'Digital Servo',
+    POWER_ELECTRONICS: 'Power Electronics',
+    CHASSIS_DESIGN: 'Chassis Design',
+    SUSPENSION_DESIGN: 'Suspension Design',
   };
 
   const PROJECTS = [
     {
-      img: 'assets/images/qxzn-cover.png',
+      img: 'assets/images/project-1.jpg',
+      imageFit: 'cover',
       titleKey: 'projects.item0.title',
       descKey: 'projects.item0.desc',
       tags: [
-        PROJECT_TAG_LIBRARY.HUMANOID_ROBOTICS,
-        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
-        PROJECT_TAG_LIBRARY.REINFORCEMENT_LEARNING,
-        PROJECT_TAG_LIBRARY.MOTION_CAPTURE,
-        PROJECT_TAG_LIBRARY.ROBOT_PERCEPTION,
+        PROJECT_TAG_LIBRARY.ROBOMASTER,
+        PROJECT_TAG_LIBRARY.ROBOTICS,
+        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
+        PROJECT_TAG_LIBRARY.ROBOT_CONTROL,
+        PROJECT_TAG_LIBRARY.COMPETITION,
       ],
       links: [],
     },
     {
-      img: 'assets/images/sdog.jpeg',
-      titleKey: 'projects.item10.title',
-      descKey: 'projects.item10.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.LEGGED_ROBOT,
-        PROJECT_TAG_LIBRARY.REINFORCEMENT_LEARNING,
-        PROJECT_TAG_LIBRARY.AMPLITUDE_MOTION_PRIORS,
-        PROJECT_TAG_LIBRARY.SIM2REAL,
-        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
-      ],
-      links: [
-        { href: 'https://www.bilibili.com/video/BV1T5g66pEdT/', labelKey: 'projects.links.demo', icon: 'fab fa-bilibili' },
-      ],
-    },
-    {
-      img: 'assets/images/G-exo.jpg',
+      img: 'assets/images/project-2.jpg',
       imageFit: 'cover',
-      titleKey: 'projects.item11.title',
-      descKey: 'projects.item11.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.EXOSKELETON,
-        PROJECT_TAG_LIBRARY.PPO,
-        PROJECT_TAG_LIBRARY.MYOSUITE,
-        PROJECT_TAG_LIBRARY.TCN,
-        PROJECT_TAG_LIBRARY.URDF,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/G-Exo', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-        { href: 'https://www.bilibili.com/video/BV1uuu36uEjx/', labelKey: 'projects.links.demo', icon: 'fab fa-bilibili' },
-      ],
-    },
-    {
-      img: 'assets/images/locowiki-cover.png',
       titleKey: 'projects.item1.title',
       descKey: 'projects.item1.desc',
       tags: [
-        PROJECT_TAG_LIBRARY.WIKI,
-        PROJECT_TAG_LIBRARY.KNOWLEDGE_BASE,
+        PROJECT_TAG_LIBRARY.ROBOMASTER,
         PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.OPEN_SOURCE,
+        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
+        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
+        PROJECT_TAG_LIBRARY.COMPETITION,
       ],
-      links: [
-        { href: 'https://github.com/LocoWiki/LocoWiki', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-        { href: 'https://locowiki.github.io/', labelKey: 'projects.links.website', icon: 'fas fa-globe' },
-        { href: 'https://lain-database.feishu.cn/wiki/HwyJwB70niKbW7khmwlcbCH2nXb', labelKey: 'projects.links.feishu', icon: 'fas fa-book' },
-      ],
+      links: [],
     },
     {
-      img: 'assets/images/opendog-cover.png',
+      img: 'assets/images/project-3.jpg',
+      imageFit: 'cover',
       titleKey: 'projects.item2.title',
       descKey: 'projects.item2.desc',
       tags: [
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.REINFORCEMENT_LEARNING,
-        PROJECT_TAG_LIBRARY.SIM2REAL,
-        PROJECT_TAG_LIBRARY.DEPLOYMENT,
+        PROJECT_TAG_LIBRARY.EMBEDDED,
+        PROJECT_TAG_LIBRARY.STM32F407,
+        PROJECT_TAG_LIBRARY.DIGITAL_SERVO,
+        PROJECT_TAG_LIBRARY.POWER_ELECTRONICS,
+        PROJECT_TAG_LIBRARY.COMPETITION,
       ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/HTDW4438-OpenDog', label: 'OpenDog', icon: 'fab fa-github' },
-        { href: 'https://github.com/Lain-Ego0/HTDW4438-AMP', label: 'AMP', icon: 'fab fa-github' },
-        { href: 'https://github.com/Lain-Ego0/HTDW4438_HIMloco', label: 'HIMloco', icon: 'fab fa-github' },
-        { href: 'https://github.com/Lain-Ego0/HTDW4438_Isaacgym', label: 'Isaac Gym', icon: 'fab fa-github' },
-        { href: 'https://www.bilibili.com/video/BV1vraH6iEUz/?share_source=copy_web&vd_source=ba8eb7d61bec067d23f755ba4fb55f78', labelKey: 'projects.links.followup', icon: 'fab fa-bilibili' },
-      ],
+      links: [],
     },
     {
-      img: 'assets/images/robocon-cover.png',
+      img: 'assets/images/project-4.jpg',
+      imageFit: 'cover',
       titleKey: 'projects.item3.title',
       descKey: 'projects.item3.desc',
       tags: [
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
-        PROJECT_TAG_LIBRARY.SLAM,
-        PROJECT_TAG_LIBRARY.LIDAR,
+        PROJECT_TAG_LIBRARY.ROBOMASTER,
+        PROJECT_TAG_LIBRARY.CHASSIS_DESIGN,
+        PROJECT_TAG_LIBRARY.SUSPENSION_DESIGN,
         PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
+        PROJECT_TAG_LIBRARY.ROBOTICS,
       ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/ROBOCON-BRS_robot', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-        { href: 'https://lain-database.feishu.cn/wiki/MUtjwx2FzixM65kKYhlcxcxdnqg', labelKey: 'projects.links.docs', icon: 'fas fa-book' },
-        { href: 'https://www.bilibili.com/video/BV15wu4zuEmf', labelKey: 'projects.links.demo', icon: 'fab fa-bilibili' },
-      ],
-    },
-    {
-      img: 'assets/images/lobster-cover.png',
-      titleKey: 'projects.item4.title',
-      descKey: 'projects.item4.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.UNDERWATER_ROBOTICS,
-        PROJECT_TAG_LIBRARY.EMBEDDED,
-        PROJECT_TAG_LIBRARY.VECTOR_PROPULSION,
-        PROJECT_TAG_LIBRARY.WATERPROOF_ENGINEERING,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/BionicLobster-ROV', labelKey: 'projects.links.firmware', icon: 'fab fa-github' },
-        { href: 'https://github.com/iowqi/ShrimpROV', labelKey: 'projects.links.mechanical', icon: 'fab fa-github' },
-        { href: 'https://github.com/zhizhizzzzzzz/OceanSphere', labelKey: 'projects.links.vision', icon: 'fab fa-github' },
-      ],
-    },
-    {
-      img: 'assets/images/agri-cover.png',
-      titleKey: 'projects.item5.title',
-      descKey: 'projects.item5.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.AGRICULTURAL_ROBOTICS,
-        PROJECT_TAG_LIBRARY.FREERTOS,
-        PROJECT_TAG_LIBRARY.MOTOR_CONTROL,
-        PROJECT_TAG_LIBRARY.MULTI_ROBOT_COLLABORATION,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/ROBOCON2024-R1', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-        { href: 'https://www.bilibili.com/video/BV1VH4y1A7aM/?spm_id_from=333.337.search-card.all.click&vd_source=193a56b6f00b33090010ba20d05cfef7', labelKey: 'projects.links.demo', icon: 'fab fa-bilibili' },
-      ],
-    },
-    {
-      img: 'assets/images/3508dog-cover.jpg',
-      titleKey: 'projects.item7.title',
-      descKey: 'projects.item7.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.M3508,
-        PROJECT_TAG_LIBRARY.MOTOR_CONTROL,
-        PROJECT_TAG_LIBRARY.PID,
-        PROJECT_TAG_LIBRARY.SENSOR_FUSION,
-        PROJECT_TAG_LIBRARY.LEGGED_ROBOT,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/ROBOCON2024-3508DOG', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-      ],
-    },
-    {
-      img: 'assets/images/arenax-cover.png',
-      titleKey: 'projects.item9.title',
-      descKey: 'projects.item9.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.PYTHON,
-        PROJECT_TAG_LIBRARY.MUJOCO,
-        PROJECT_TAG_LIBRARY.PYQT,
-        PROJECT_TAG_LIBRARY.ONNX,
-        PROJECT_TAG_LIBRARY.TERRAIN_GENERATION,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/ArenaX', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-      ],
-    },
-    {
-      titleKey: 'projects.item6.title',
-      descKey: 'projects.item6.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.STM32F103,
-        PROJECT_TAG_LIBRARY.VOICE_CONTROL,
-        PROJECT_TAG_LIBRARY.IMU,
-        PROJECT_TAG_LIBRARY.LD3320,
-        PROJECT_TAG_LIBRARY.ROBOTIC_ARM,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/SliverWolf-ArmRobotDog', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-      ],
-    },
-    {
-      titleKey: 'projects.item8.title',
-      descKey: 'projects.item8.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.STM32F103,
-        PROJECT_TAG_LIBRARY.POSITIONING,
-        PROJECT_TAG_LIBRARY.RS485,
-        PROJECT_TAG_LIBRARY.ABSOLUTE_ENCODER,
-        PROJECT_TAG_LIBRARY.IMU,
-      ],
-      links: [
-        { href: 'https://github.com/Lain-Ego0/ROBOCON2024-PPS', labelKey: 'projects.links.code', icon: 'fab fa-github' },
-      ],
-    },
-  ];
-
-  const DOCUMENTS = [
-    {
-      titleKey: 'documents.item0.title',
-      descKey: 'documents.item0.desc',
-      links: [
-        { href: 'https://zhuanlan.zhihu.com/p/2039380190334284614', labelKey: 'projects.links.zhihu', icon: 'fab fa-zhihu' },
-      ],
-    },
-    {
-      titleKey: 'documents.item1.title',
-      descKey: 'documents.item1.desc',
-      links: [
-        { href: 'https://zhuanlan.zhihu.com/p/2007616159604823171', labelKey: 'projects.links.zhihu', icon: 'fab fa-zhihu' },
-      ],
-    },
-    {
-      titleKey: 'documents.item2.title',
-      descKey: 'documents.item2.desc',
-      links: [
-        { href: 'https://zhuanlan.zhihu.com/p/2026559138700764315', labelKey: 'projects.links.zhihu', icon: 'fab fa-zhihu' },
-      ],
+      links: [],
     },
   ];
 
@@ -330,10 +183,8 @@
   ];
 
   const CONTACT_LINKS = [
-    { icon: 'fas fa-envelope', key: 'contact.email', link: 'mailto:lain-ego@qq.com' },
-    { icon: 'fab fa-bilibili', key: 'contact.bilibili', link: 'https://space.bilibili.com/385516781/upload/video' },
+    { icon: 'fas fa-envelope', key: 'contact.email', link: 'mailto:2503183563@qq.com' },
     { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/Lain-Ego0' },
-    { icon: 'fab fa-twitter', key: 'contact.twitter', link: 'https://x.com/Lain_Ego0' },
     { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/hua-99-50-21' },
     { icon: 'fas fa-robot', key: 'contact.playground', link: 'playground/' },
   ];
@@ -450,29 +301,6 @@
     });
   }
 
-  function initDocuments() {
-    const grid = qs('.documents-grid');
-    if (!grid) return;
-    clear(grid);
-
-    DOCUMENTS.forEach((doc) => {
-      const actionsHtml = renderProjectActions(doc.links);
-
-      const card = document.createElement('div');
-      card.className = 'card project-card project-card--text-only';
-      card.innerHTML = `
-        <div class="project-info">
-          <h3>${t(doc.titleKey)}</h3>
-          <p>${t(doc.descKey)}</p>
-          <div class="project-meta-row">
-            ${actionsHtml}
-          </div>
-        </div>
-      `;
-      grid.appendChild(card);
-    });
-  }
-
   function initTimeline() {
     const container = qs('.timeline-container');
     if (!container) return;
@@ -559,7 +387,6 @@
   function initRevealMotion() {
     const targets = [
       ...qsa('.projects-grid .card'),
-      ...qsa('.documents-grid .card'),
       ...qsa('.timeline-container .timeline-item'),
       ...qsa('.skills-wrapper .skill-category'),
     ];
@@ -603,7 +430,6 @@
   window.addEventListener('i18nLoaded', () => {
     console.log('[main] i18n loaded, rendering content...');
     initProjects();
-    initDocuments();
     initTimeline();
     initTechStack();
     initContactLinks();
