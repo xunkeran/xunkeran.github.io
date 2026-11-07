@@ -7,7 +7,7 @@
   "intro": {
     "avatarAlt": "Xun Keran's avatar",
     "title": "Hello, I'm Xun Keran",
-    "desc": "Robotics competition builder, working on whole-robot structure and embedded control.<br>R&D and on-field debugging for RoboMaster and the China Engineering Robot Competition.<br>Interested in omnidirectional chassis, mechanism design, and motion control."
+    "desc": "Automatic control and robotics enthusiast, currently snowed under.<br>Getting started with motion control, reinforcement learning, and robot perception."
   },
   "projects": {
     "title": "Projects",
@@ -25,92 +25,47 @@
       "followup": "Follow-up video"
     },
     "item0": {
-      "title": "RoboMaster 2025 Competition Robot (No. 1)",
-      "desc": "Robot No. 1 built for RoboMaster 2025. A four-wheel omnidirectional chassis with independent per-wheel drive carries a heavy large-angle pitch mechanism on top, wrapped in mesh armor and LED armor plates. Frame, support arms, and every 3D-printed part were designed in-house, and the harness is layered by module and bundled inside the frame so armor and ballast can be swapped for each rule revision. Photographed at the 2025 National Finals.",
-      "tags": ["RoboMaster", "Robotics", "Mechanical Design", "Robot Control", "Competition"]
+      "title": "Long-Range Lob-Shot Hero Robot",
+      "desc": "As the electrical and control lead, took part in validation and development of the lob-shot hero robot: built a six-wheel friction lob mechanism with an OpenMV aiming-assist system to hit targets 20 m away, carried the project all the way to the Spring Cocoon arena, placed third in the revival-round lob deployment accuracy event and won a national third prize.",
+      "tags": ["RoboMaster", "Robot Control", "Robot Perception", "Mechanical Design", "Competition"]
     },
     "item1": {
-      "title": "RoboMaster Infantry Robots (No. 3 / 4)",
-      "desc": "Two robots from a dual-infantry build: a four-wheel mecanum chassis, a gimbal that rotates a full turn, and a 17 mm launcher with magazine and laser aiming aid, with guard tubes and quick-release plates on both sides of the barrel; orange 3D-printed parts act as magazine rails and cable anchors. The pair ran the field under armor plates 3 and 4, and the white balls on the floor are spent 17 mm projectiles.",
-      "tags": ["RoboMaster", "Robotics", "Motion Control", "Mechanical Design", "Competition"]
+      "title": "Series-Legged Hero Robot",
+      "desc": "Electrical and control lead; contributed to the development of the wheel-legged hero robot and competed in RM2026, winning a national third prize.",
+      "tags": ["RoboMaster", "Motion Control", "Robot Control", "Mechanical Design", "Competition"]
     },
     "item2": {
-      "title": "Multi-Servo Arm Control System",
-      "desc": "The servo control system designed in-house for our 2025 China Engineering Robot Competition entry. An STM32 board sits at the center, fanning multiple PWM channels out to joint-numbered servo headers, backed by 20 kg-class digital servos, direct LiPo power, and a buck module. Harnesses are numbered and bundled in sections, and power runs through an XT60 connector with a pull-guard label, so any joint can be found fast during assembly and post-match repair.",
-      "tags": ["Embedded Systems", "STM32F407", "Digital Servo", "Power Electronics", "Competition"]
+      "title": "Omnidirectional Suspended-Chassis Infantry Robot",
+      "desc": "A combat robot built around dual DJI C boards as its main controllers. DJI3508 motors drive the omnidirectional chassis, while the controller IMU and DAMIAO motors keep the gimbal self-stabilised.",
+      "tags": ["RoboMaster", "Motor Control", "M3508", "Sensor Fusion", "Competition"]
     },
     "item3": {
-      "title": "Omnidirectional Suspended-Chassis Combat Robot",
-      "desc": "A combat platform built around mobility: four mecanum wheels handle drive, small idler wheels at the corners prevent tip-over, and the upper assembly floats on springs and linear rails so it self-levels over obstacles and uneven patches. The top module pitches independently, harnesses leave the frame in braided sleeves, and the head keeps mounting points for a camera and video transmitter. Armor and lighting are cut to regulation sizes, with structure and electronics modularized on a single frame.",
-      "tags": ["RoboMaster", "Chassis Design", "Suspension Design", "Mechanical Design", "Robotics"]
+      "title": "Quadruped Bionic Slope-Climbing Robot",
+      "desc": "A servo control system designed in-house for the quadruped slope-climbing track of the 2025 China Engineering Robot Competition. Built around an STM32 board with eight high-precision grayscale sensors for environment sensing, the robot navigates autonomously and won national runner-up.",
+      "tags": ["Embedded Systems", "STM32", "Digital Servo", "Sensor Fusion", "Competition"]
     }
   },
   "timeline": {
     "title": "Timeline",
-    "event11": {
-      "date": "2026.03 - Present",
-      "title": "Internship at Qianxing Intelligence",
-      "desc": "Working as a motion-control algorithm engineer across multiple humanoid platforms, covering motion retargeting, mjlab-based hierarchical policy training, hardware debugging, and visual self-occlusion preprocessing."
-    },
-    "event13": {
-      "date": "2026.07 - 2026.08",
-      "title": "G-Exo and the Physical AI Hackathon",
-      "desc": "Led full-system development of a four-DOF active lower-limb exoskeleton and won the alloop track at the inaugural Physical AI Hackathon."
-    },
-    "event14": {
-      "date": "2026.06 - Present",
-      "title": "S-Dog Quadruped Robot",
-      "desc": "Deployed RL locomotion policies for obstacle crossing, platform climbing, and self-recovery on hardware, and exhibited the project at WAIC 2026."
-    },
-    "event10": {
-      "date": "2026.03",
-      "title": "Launched LocoWiki Resource Hub",
-      "desc": "Launched the LocoWiki resource hub for robot competition preparation, research learning, and development reference, bringing together competition rules, technical sharing, paper reading lists, and high-quality open-source projects in one place."
-    },
-    "event12": {
-      "date": "2025.11",
-      "title": "Launched OpenDoge Open-Source Quadruped Crowdfunding",
-      "desc": "Initiated the OpenDoge crowdfunding project as a founding developer, leading locomotion-policy training, sim-to-real deployment, and hardware adaptation."
-    },
     "event1": {
-      "date": "2024.05",
-      "title": "Open-Sourced SliverWolf Desktop Serial-Link Quadruped",
-      "desc": "Released SliverWolf, a desktop serial-link quadruped robot featuring voice control and robotic-arm collaboration."
+      "date": "2025.06",
+      "title": "<span class=\"timeline-highlight\">Where it all began</span> · 2025 RoboMaster University Series, Eastern Regional",
+      "desc": "Electrical and control lead for the omnidirectional wheeled robot; competed in the RoboMaster University Series regional event and won a national second prize."
     },
     "event2": {
-      "date": "2024.07",
-      "title": "2024 ROBOCON National Competition",
-      "desc": "Developed the embedded control system for the R1 robot based on FreeRTOS, achieving ±5mm positioning accuracy, ball launching, and gripper functionalities."
+      "date": "2025.08",
+      "title": "China Engineering Robot Competition & International Open",
+      "desc": "Electrical and control lead; built a quadruped with grayscale-line recognition and autonomous navigation, winning national runner-up."
+    },
+    "event3": {
+      "date": "2026.06",
+      "title": "2026 RoboMaster University Series, Northern Regional",
+      "desc": "Electrical and control lead; took part in developing the wheel-legged hero robot, winning a national third prize."
     },
     "event4": {
-      "date": "2024.11",
-      "title": "Fujian Intelligent Marine Equipment Design Competition",
-      "desc": "Led control-system development for a buoyancy-controllable multi-DOF lobster-inspired underwater robot, winning the Grand Prize."
-    },
-    "event5": {
-      "date": "2024.12",
-      "title": "2024 World Marine Equipment Conference",
-      "desc": "Represented Fujian University of Technology as an exhibitor, showcasing the bionic lobster robot; covered by media outlets including Xinhua News Agency."
-    },
-    "event6": {
-      "date": "2025.07",
-      "title": "2025 ROBOCON National Competition",
-      "desc": "Responsible for full-stack R&D of the legged robot. Ranked 30th nationally in the Speed Race, 31st in the Obstacle Race, and 34th in the Cross-Country Race, securing National Second Prize in all three categories."
-    },
-    "event7": {
-      "date": "2025.08",
-      "title": "2025 National Undergraduate Electronics Design Contest",
-      "desc": "Responsible for the hardware design and fabrication of the power meter for an automatic ranging system, winning the National Second Prize."
-    },
-    "event8": {
-      "date": "2025.09",
-      "title": "Open-Sourced BRS Parallel-Link Quadruped Robot",
-      "desc": "Open-sourced the mechanical structure and control code of the BRS parallel-link quadruped robot on GitHub."
-    },
-    "event9": {
-      "date": "2025.11 - 2026.03",
-      "title": "Internship at HighTorque Robotics",
-      "desc": "Worked as a motion-control algorithm intern, leading a mini open-source quadruped project and moving modules from prototype validation toward productization."
+      "date": "2026.08",
+      "title": "<span class=\"timeline-highlight\">Dream of the Spring Cocoon arena</span> · 2026 RoboMaster University Series, National Revival Round",
+      "desc": "Electrical and control lead; participated in validation and development of the lob-shot hero robot, placing third in the revival-round lob deployment accuracy event and winning a national third prize."
     }
   },
   "skills": {
@@ -123,7 +78,6 @@
   },
   "contact": {
     "github": "GitHub",
-    "zhihu": "Zhihu",
     "playground": "Online Policy Demo",
     "email": "Email"
   },

@@ -66,37 +66,9 @@
       descKey: 'projects.item0.desc',
       tags: [
         PROJECT_TAG_LIBRARY.ROBOMASTER,
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
         PROJECT_TAG_LIBRARY.ROBOT_CONTROL,
-        PROJECT_TAG_LIBRARY.COMPETITION,
-      ],
-      links: [],
-    },
-    {
-      img: 'assets/images/project-2.jpg',
-      imageFit: 'cover',
-      titleKey: 'projects.item1.title',
-      descKey: 'projects.item1.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.ROBOMASTER,
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
+        PROJECT_TAG_LIBRARY.ROBOT_PERCEPTION,
         PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
-        PROJECT_TAG_LIBRARY.COMPETITION,
-      ],
-      links: [],
-    },
-    {
-      img: 'assets/images/project-3.jpg',
-      imageFit: 'cover',
-      titleKey: 'projects.item2.title',
-      descKey: 'projects.item2.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.EMBEDDED,
-        PROJECT_TAG_LIBRARY.STM32F407,
-        PROJECT_TAG_LIBRARY.DIGITAL_SERVO,
-        PROJECT_TAG_LIBRARY.POWER_ELECTRONICS,
         PROJECT_TAG_LIBRARY.COMPETITION,
       ],
       links: [],
@@ -104,31 +76,50 @@
     {
       img: 'assets/images/project-4.jpg',
       imageFit: 'cover',
+      titleKey: 'projects.item1.title',
+      descKey: 'projects.item1.desc',
+      tags: [
+        PROJECT_TAG_LIBRARY.ROBOMASTER,
+        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
+        PROJECT_TAG_LIBRARY.ROBOT_CONTROL,
+        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
+        PROJECT_TAG_LIBRARY.COMPETITION,
+      ],
+      links: [],
+    },
+    {
+      img: 'assets/images/project-2.jpg',
+      imageFit: 'cover',
+      titleKey: 'projects.item2.title',
+      descKey: 'projects.item2.desc',
+      tags: [
+        PROJECT_TAG_LIBRARY.ROBOMASTER,
+        PROJECT_TAG_LIBRARY.MOTOR_CONTROL,
+        PROJECT_TAG_LIBRARY.M3508,
+        PROJECT_TAG_LIBRARY.SENSOR_FUSION,
+        PROJECT_TAG_LIBRARY.COMPETITION,
+      ],
+      links: [],
+    },
+    {
+      img: 'assets/images/project-3.jpg',
+      imageFit: 'cover',
       titleKey: 'projects.item3.title',
       descKey: 'projects.item3.desc',
       tags: [
-        PROJECT_TAG_LIBRARY.ROBOMASTER,
-        PROJECT_TAG_LIBRARY.CHASSIS_DESIGN,
-        PROJECT_TAG_LIBRARY.SUSPENSION_DESIGN,
-        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
-        PROJECT_TAG_LIBRARY.ROBOTICS,
+        PROJECT_TAG_LIBRARY.EMBEDDED,
+        PROJECT_TAG_LIBRARY.STM32,
+        PROJECT_TAG_LIBRARY.DIGITAL_SERVO,
+        PROJECT_TAG_LIBRARY.SENSOR_FUSION,
+        PROJECT_TAG_LIBRARY.COMPETITION,
       ],
       links: [],
     },
   ];
 
   const TIMELINE_EVENTS = [
-    'timeline.event13',
-    'timeline.event14',
-    'timeline.event11',
-    'timeline.event10',
-    'timeline.event12',
-    'timeline.event9',
-    'timeline.event8',
-    'timeline.event7',
-    'timeline.event6',
-    'timeline.event5',
     'timeline.event4',
+    'timeline.event3',
     'timeline.event2',
     'timeline.event1',
   ];
@@ -137,20 +128,17 @@
     {
       category: 'skills.hardware',
       items: [
-        { name: 'Fusion 360', icon: 'fas fa-cube' },
         { name: 'SolidWorks', icon: 'fas fa-drafting-compass' },
-        { name: 'LCEDA', icon: 'fas fa-pencil-ruler' },
-        { name: 'KiCad', icon: 'fas fa-layer-group' },
+        { name: 'AutoCAD', icon: 'fas fa-cube' },
+        { name: '嘉立创EDA', icon: 'fas fa-pencil-ruler' },
       ],
     },
     {
       category: 'skills.embedded',
       items: [
         { name: 'MCU', icon: 'fas fa-microchip' },
-        { name: 'SBC', icon: 'fas fa-server' },
         { name: 'RTOS', icon: 'fas fa-cogs' },
         { name: 'C/C++', icon: 'fas fa-code' },
-        { name: 'Rust', icon: 'fab fa-rust' },
       ],
     },
     {
@@ -158,17 +146,12 @@
       items: [
         { name: 'URDF', icon: 'fas fa-sitemap' },
         { name: 'ROS 1 / ROS 2', icon: 'fas fa-robot' },
-        { name: 'System Identification', icon: 'fas fa-wave-square' },
-        { name: 'Actuator Modeling', icon: 'fas fa-sliders' },
       ],
     },
     {
       category: 'skills.simulation',
       items: [
-        { name: 'PPO / CTS', icon: 'fas fa-brain' },
-        { name: 'MuJoCo', icon: 'fas fa-cube' },
-        { name: 'Isaac Gym', icon: 'fas fa-dumbbell' },
-        { name: 'Isaac Sim', icon: 'fas fa-vr-cardboard' },
+        { name: 'MATLAB', icon: 'fas fa-calculator' },
       ],
     },
     {
@@ -184,8 +167,7 @@
 
   const CONTACT_LINKS = [
     { icon: 'fas fa-envelope', key: 'contact.email', link: 'mailto:2503183563@qq.com' },
-    { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/Lain-Ego0' },
-    { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/hua-99-50-21' },
+    { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/xunkeran' },
     { icon: 'fas fa-robot', key: 'contact.playground', link: 'playground/' },
   ];
 

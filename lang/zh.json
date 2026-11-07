@@ -7,7 +7,7 @@
   "intro": {
     "avatarAlt": "浔可然的头像",
     "title": "你好，我是浔可然",
-    "desc": "机器人竞赛选手，主要做整机结构设计与嵌入式控制<br>参与 RoboMaster 与工程机器人大赛的整机研发与赛场调试<br>关注全向底盘、机构设计与运动控制"
+    "desc": "自动控制与机器人爱好者，目前正在大雪深埋<br>入门学习运动控制、强化学习及机器人感知技术"
   },
   "projects": {
     "title": "项目合集",
@@ -25,92 +25,47 @@
       "followup": "后续视频"
     },
     "item0": {
-      "title": "RoboMaster 2025 超级对抗赛整机（1 号机）",
-      "desc": "为 RoboMaster 2025 超级对抗赛研发的 1 号机型。四轮全向底盘由四个电机独立驱动，上层为大角度俯仰的重型执行机构，外面覆盖网格防弹网与装甲灯板；机架、支撑臂与全部 3D 打印件均为自行设计，线束按模块分层绑扎后集中固定在机架内侧，赛前可按规则版本快速换装装甲与配重。照片摄于 2025 赛季全国总决赛现场。",
-      "tags": ["RoboMaster", "Robotics", "Mechanical Design", "Robot Control", "Competition"]
+      "title": "远距离吊射英雄机器人",
+      "desc": "作为电控负责人，参与吊射英雄的验证与研发，研发六摩擦吊射技术并搭配 OpenMV 辅瞄系统，实现 20 m 远距离吊射，荣至春茧殿堂，获复活赛吊射部署命中第三名，获全国三等奖。",
+      "tags": ["RoboMaster", "Robot Control", "Robot Perception", "Mechanical Design", "Competition"]
     },
     "item1": {
-      "title": "RoboMaster 步兵机器人（3 / 4 号机）",
-      "desc": "双步兵方案的两台整机：四轮麦克纳姆轮全向底盘，上层为可整周回转的云台，集成 17 mm 发射机构、弹仓与激光辅助瞄准，发射管两侧加装护管和快拆挡板，橙色 3D 打印件用作弹仓导轨与走线固定点。两台机器分别挂 3、4 号装甲板在场上协同推进，地上散落的是对抗中打出的 17 mm 弹丸。",
-      "tags": ["RoboMaster", "Robotics", "Motion Control", "Mechanical Design", "Competition"]
+      "title": "串联腿英雄机器人",
+      "desc": "负责电控，参与轮腿英雄的研发，参与 RM2026 超级对抗赛，获全国三等奖。",
+      "tags": ["RoboMaster", "Motion Control", "Robot Control", "Mechanical Design", "Competition"]
     },
     "item2": {
-      "title": "多舵机机械臂电控系统",
-      "desc": "为 2025 中国工程机器人大赛参赛机自主设计的舵机控制方案：以 STM32 主控板为核心，按关节编号把多路 PWM 引出到舵机接口，配合 20 KG 级数字舵机、锂电池直驱与降压模块供电；线束统一编号、分段绑扎，电源改用 XT60 快插并贴了防拉扯标识，装配和赛后检修时都能快速定位到具体关节。",
-      "tags": ["Embedded Systems", "STM32F407", "Digital Servo", "Power Electronics", "Competition"]
+      "title": "全向悬挂底盘步兵机器人",
+      "desc": "以双大疆 C 板为核心控制板的对抗机器人。通过控制 DJI3508 电机完成全向底盘控制，搭配控制板 IMU 和达妙电机实现云台自稳定。",
+      "tags": ["RoboMaster", "Motor Control", "M3508", "Sensor Fusion", "Competition"]
     },
     "item3": {
-      "title": "全向悬挂底盘对抗机器人",
-      "desc": "以全向机动为核心的对抗机型：四个麦克纳姆轮作主驱动，底盘四角补装小直径辅助轮防倾，上层载荷通过弹簧与直线导轨和底盘浮动连接，越障与贴地时能自行找平；上层为可独立俯仰的执行模块，线束用编织套管成束引出，头部预留相机与图传安装位。装甲与灯带按规则尺寸定制，结构与电控在同一套机架上模块化拆装。",
-      "tags": ["RoboMaster", "Chassis Design", "Suspension Design", "Mechanical Design", "Robotics"]
+      "title": "四足仿生爬坡机器人",
+      "desc": "为 2025 中国工程机器人大赛四足爬坡赛道自主设计的舵机控制方案：以 STM32 主控板为核心，通过 8 路高精度灰度传感器实现环境感知，具有自主导航能力的智能四足机器人，获全国亚军。",
+      "tags": ["Embedded Systems", "STM32", "Digital Servo", "Sensor Fusion", "Competition"]
     }
   },
   "timeline": {
     "title": "经历时间轴",
-    "event11": {
-      "date": "2026.03 - 至今",
-      "title": "迁星智能实习",
-      "desc": "作为运动控制算法工程师参与多款人形机器人研发，推进动作重定向、基于 mjlab 的分层运动策略训练、实机调试及视觉自遮挡预处理。"
-    },
-    "event13": {
-      "date": "2026.07 - 2026.08",
-      "title": "G-Exo 外骨骼与 Physical AI 黑客松",
-      "desc": "主导四自由度主动式下肢外骨骼整机研发，获首届 Physical AI 黑客松 alloop 赛道冠军。"
-    },
-    "event14": {
-      "date": "2026.06 - 至今",
-      "title": "S-Dog 四足机器人",
-      "desc": "完成强化学习运动策略实机部署，实现越障、登台与自恢复，并携项目参展 WAIC 2026。"
-    },
-    "event10": {
-      "date": "2026.03",
-      "title": "创建 LocoWiki 资料站",
-      "desc": "搭建 LocoWiki 资料站，面向机器人赛事备赛、科研学习与开发检索场景，系统整合赛事规则、技术分享、论文研读清单及优质开源项目等核心资料。"
-    },
-    "event12": {
-      "date": "2025.11",
-      "title": "发起 OpenDoge 开源四足众筹",
-      "desc": "作为创始开发者发起 OpenDoge 四足机器人众筹，主导项目运动策略训练、Sim-to-Real 部署与实机适配。"
-    },
     "event1": {
-      "date": "2024.05",
-      "title": "开源 SliverWolf 桌面级四足机器人",
-      "desc": "发布 SliverWolf，一款具备语音控制与机械臂协同作业能力的桌面级串联四足机器人。"
+      "date": "2025.06",
+      "title": "<span class=\"timeline-highlight\">梦的开始</span> 2025 RoboMaster机甲大师超级对抗赛-东部区域赛",
+      "desc": "负责全向轮式机器人电控，参加 RoboMaster 机甲大师超级对抗赛-区域赛，获全国二等奖。"
     },
     "event2": {
-      "date": "2024.07",
-      "title": "2024 ROBOCON 全国赛",
-      "desc": "基于FreeRTOS完成R1机器人嵌入式控制系统开发，实现±5mm定位精度，球体发射、夹爪夹取功能。"
+      "date": "2025.08",
+      "title": "中国工程机器人大赛暨国际公开赛",
+      "desc": "负责电控，基于灰度识别，研发具有自主导航能力的智能四足机器人，获全国亚军。"
+    },
+    "event3": {
+      "date": "2026.06",
+      "title": "2026 RoboMaster机甲大师超级对抗赛-北部区域赛",
+      "desc": "负责电控，参与轮腿英雄的研发，获全国三等奖。"
     },
     "event4": {
-      "date": "2024.11",
-      "title": "福建省大学生智能海洋装备设计制作大赛",
-      "desc": "负责开发浮力可控多自由度龙虾水下机器人的控制系统，获特等奖。"
-    },
-    "event5": {
-      "date": "2024.12",
-      "title": "2024 世界航海装备大会",
-      "desc": "代表福建理工大学参展，展示仿生波士顿大龙虾机器人，获新华社等媒体报道。"
-    },
-    "event6": {
-      "date": "2025.07",
-      "title": "2025 ROBOCON 全国赛",
-      "desc": "负责足式机器人全栈研发。获足式机器人竞速赛全国30名、障碍赛31名、越野赛34名，共三项国二佳绩。"
-    },
-    "event7": {
-      "date": "2025.08",
-      "title": "2025 全国大学生电子设计大赛",
-      "desc": "负责自动测距系统的功率计硬件设计与制作，获全国二等奖。"
-    },
-    "event8": {
-      "date": "2025.09",
-      "title": "开源 BRS 并联四足机器人",
-      "desc": "在GitHub开源BRS并联四足机器人的机械结构与控制代码。"
-    },
-    "event9": {
-      "date": "2025.11 - 2026.03",
-      "title": "高擎动力实习",
-      "desc": "担任运动控制算法实习生，主导小型开源四足机器人项目，并推动各模块从原型验证向产品化迭代。"
+      "date": "2026.08",
+      "title": "<span class=\"timeline-highlight\">梦幻春茧殿堂</span> 2026 RoboMaster机甲大师超级对抗赛-全国复活赛",
+      "desc": "负责电控，参与吊射英雄的验证与研发，获得复活赛吊射部署命中第三名，获全国三等奖。"
     }
   },
   "skills": {
@@ -123,7 +78,6 @@
   },
   "contact": {
     "github": "代码仓库",
-    "zhihu": "知乎",
     "playground": "在线策略体验",
     "email": "邮箱"
   },
