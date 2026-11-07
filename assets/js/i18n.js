@@ -12,7 +12,8 @@
     for (const script of scripts) {
       const src = script.getAttribute('src');
       if (src && src.includes('assets/js/i18n.js')) {
-        return src.replace('assets/js/i18n.js', '');
+        // 去掉 ?v=2 之类的查询串，避免拼出错误的语言包路径
+        return src.split('?')[0].split('#')[0].replace('assets/js/i18n.js', '');
       }
     }
     return '';
